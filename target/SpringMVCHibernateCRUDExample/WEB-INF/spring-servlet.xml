@@ -44,7 +44,7 @@
 		</beans:property>
 	</beans:bean>
 
-	<context:component-scan base-package="org.arpit.java2blog" />
+	<context:component-scan base-package="org.arpit.java2blog.controller" />
 
 	<tx:annotation-driven transaction-manager="transactionManager" />
 
